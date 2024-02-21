@@ -50,6 +50,10 @@ function darkMode(){
     document.getElementById('html') === document.html.style.backgroundColor = 'black';
 }
 
+function agrandarImg(){
+    caches['img'] = '/build/img/'
+}
+
 const img = document.createElement('imagenes');
 const nav = document.createElement('nav');
 
