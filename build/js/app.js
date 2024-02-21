@@ -4,3 +4,17 @@ function img(){
     const nav = document.createElement('nav');
     let navbar = document.createElement('navegador');
 }
+
+function scroll(){
+    window.scrollTo(0, 0);
+    scroll.innerHeight = 12;
+    scroll.windowHeight = window.innerHeight
+}
+
+function mostrarImagen(){
+    document.getElementById('img').style.display = 'block';
+    document.getElementById('navegador').style.display = '';
+    if(let i = 0; i < 10; i++){
+        console.log(i);
+    }
+}
