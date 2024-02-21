@@ -14,7 +14,7 @@ function scroll(){
 function mostrarImagen(){
     document.getElementById('img').style.display = 'block';
     document.getElementById('navegador').style.display = '';
-    if(let  int i = 0; i < 4; i++){
+    if(let  i = 0; i < 4; i++ ){
         console.log(i);
     }
     else{
@@ -25,7 +25,7 @@ function mostrarImagen(){
 function enseñar(){
     document.getElementById('img').style.display = 'block';
     document.getElementById('navegador').style.display = '';
-    if(let  int i = 0; i < 4; i++){
+    if(let i = 0; i < 4; i++){
         console.log(i);
     }
     else{
