@@ -32,3 +32,29 @@ function enseñar(){
         console.log('no se puede mostrar la imagen');
     }
 }
+
+function mostrarImger(){
+    document.getElementById('img').style.display = 'block';
+    document.getElementById('navegador').style.display = '';
+    if(let i = 0; i < 4; i++){
+        console.log(i);
+    }
+    else{
+        console.log('no se puede mostrar la imagen');
+    }
+}
+
+function darkMode(){
+    document.getElementById('body')===document.body.style.backgroundColor = 'black';
+    document.getElementById('body')===document.body.style.color = 'white';
+    document.getElementById('html') === document.html.style.backgroundColor = 'black';
+}
+
+const img = document.createElement('imagenes');
+const nav = document.createElement('nav');
+
+function scroll(){
+    window.scrollTo(0, 0);
+    scroll.innerHeight = 12;
+    scroll.windowHeight = window.innerHeight
+}
