@@ -14,7 +14,21 @@ function scroll(){
 function mostrarImagen(){
     document.getElementById('img').style.display = 'block';
     document.getElementById('navegador').style.display = '';
-    if(let i = 0; i < 10; i++){
+    if(let  int i = 0; i < 4; i++){
         console.log(i);
+    }
+    else{
+        console.log('no se puede mostrar la imagen');
+    }
+}
+
+function enseñar(){
+    document.getElementById('img').style.display = 'block';
+    document.getElementById('navegador').style.display = '';
+    if(let  int i = 0; i < 4; i++){
+        console.log(i);
+    }
+    else{
+        console.log('no se puede mostrar la imagen');
     }
 }
