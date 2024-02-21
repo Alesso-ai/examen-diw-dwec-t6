@@ -51,7 +51,10 @@ function darkMode(){
 }
 
 function agrandarImg(){
-    caches['img'] = '/build/img/'
+    caches['img'] = '/build/img/';
+    let img=document.getElementById('img');
+    img.style.width = 100;
+    img.style.heigt = 0;
 }
 
 const img = document.createElement('imagenes');
@@ -61,4 +64,8 @@ function scroll(){
     window.scrollTo(0, 0);
     scroll.innerHeight = 12;
     scroll.windowHeight = window.innerHeight
+}
+
+function iniciarApp(){
+    document.getElementById('img').style.display = 'block';
 }
